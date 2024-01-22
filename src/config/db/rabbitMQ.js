@@ -1,0 +1,10 @@
+require("dotenv").config();
+
+module.exports = { 
+    MESSAGE_BROKER_URL: process.env.MESSAGE_BROKER_URL,
+    EXCHANGE_NAME: 'Delevery123',
+    AUTHOR_BINDING_KEY: 'AUTHOR_SERVICE',
+    SEND_MAIL_SERVICE: 'SEND_OTP_REGISTER',
+    SEND_MAIL_KEY: 'SEND_MAIL_REGISTER',
+    USER_SERVICE: 'USER_SERVICE',
+};
